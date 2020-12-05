@@ -1,10 +1,10 @@
 <template>
   <div class="introContainer">
     <div class="introChild">
-     <div>
+     <div class="intrologobox">
             <img class="logoresize" src="~/assets/MuktiLogo.jpg" alt="Kitten" />
      </div>
-     <div>
+     <div class="introlistbox">
          <ul>
              <li>
                  Work From <span class="home">Home</span> Himachal.
@@ -36,9 +36,15 @@
   margin: 40px 0;
 }
 .introChild {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
+}
+.intrologobox {
+    width: 35%;
+}
+.introlistbox {
+    width: 100%;
 }
 .other {
     background-color: #AB9856;
@@ -59,12 +65,35 @@ li {
     text-decoration: line-through;
     color: brown;
 }
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 1100px) { 
     .introChild {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.intrologobox {
+    width: 60%;
+}
+.logoresize {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 800px) { 
+    .introChild {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intrologobox {
+    width: 100%;
+}
+.logoresize {
+    width: 350px;
 }
 }
 </style>
