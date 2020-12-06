@@ -92,6 +92,7 @@
 <style scoped>
 .card-text {
     color:  #373445;
+    font-size: 20px;
 }
 .home {
     text-decoration: line-through;
@@ -100,9 +101,11 @@
 .card-header {
     background-color: #AB9856;
     color:  #373445;
+    font-size: 25px;
 }
 .featurecontainer {
     background-color: #373445;
+    padding-bottom: 50px;
 }
 .featureheading {
     color:  #AB9856;
@@ -111,5 +114,9 @@
   align-items: center;
   text-align: center;
   width: 100%;
+  font-size: 40px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  font-weight: bolder;
 }
 </style>

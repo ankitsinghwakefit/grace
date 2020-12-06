@@ -4,6 +4,7 @@
   <Hero />
   <Intro />
   <Feature />
+  <Footer />
 </div>
   <!-- <div class="container">
     <div>
