@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="introcontainer">
     <b-container>
       <b-row>
         <b-col xl="6" lg="6" md="6" sm="12">
@@ -129,6 +129,9 @@ li {
     width: 350px;
 }
 } */
+.introcontainer {
+    margin-bottom: 50px;
+}
 .home {
     text-decoration: line-through;
     color: brown;
@@ -146,6 +149,9 @@ li {
 @media only screen and (max-width: 750px) { 
    ul {
     margin-top: 1px;
+}
+.introcontainer {
+    margin-bottom: 1px;
 }
 }
 </style>

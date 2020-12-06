@@ -3,6 +3,7 @@
   <Navbar />
   <Hero />
   <Intro />
+  <Feature />
 </div>
   <!-- <div class="container">
     <div>
