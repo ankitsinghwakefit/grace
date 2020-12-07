@@ -153,5 +153,8 @@ li {
 .introcontainer {
     margin-bottom: 1px;
 }
+.logoresize {
+    width: 310px;
+}
 }
 </style>
