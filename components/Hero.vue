@@ -3,7 +3,7 @@
       <h1>MUKTI</h1>
       <h3> ~ let's escape this town for a little while ~ </h3>
       <!-- <button>Let's Get IT!</button> -->
-      <button class="button" style="vertical-align:middle"><span>Let's Get IN!</span></button>
+      <b-link to="/contact" class="button" style="vertical-align:middle"><span>let's Get IN!</span></b-link>
   </div>
 </template>
 

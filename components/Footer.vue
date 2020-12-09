@@ -4,13 +4,14 @@
         <div class="child-One">
             <h2>Contact</h2>
             <p>Mukti</p>
-            <p>vpo khas thed</p>
-            <p>Khaniyara khas,Dharamshala.</p>
+            <p>Thehr, ward no -15</p>
+            <p>Vpo-khaniyara khas, Kangra</p>
+            <p>Himachal Pradesh - 176218</p>
         </div>
         <div class="child-One">
-            <p>Tel: +91 88888 88888</p>
-            <p>Email: contact@mukti.com</p>
-            <p>Book a Consulation</p>
+            <p>Tel: +91 72249 53427</p>
+            <p>Email: muktilisten@gmail.com</p>
+            <p>Book a Consultation.</p>
         </div>
         <div class="child-One">
             <p>Suscribe to our new offers.

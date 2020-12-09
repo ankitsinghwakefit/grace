@@ -17,8 +17,8 @@
                 class="text-center"
               >
                 <b-card-text>
-                  <span class="home">CITY</span>, a small Village (Away from
-                  citi's) in Heart of Dharamshala - Himachal Pradesh.
+                  <span class="home">CITY</span>, a small Village - Kangra (Away from
+                  cities) in Heart of Dharamshala - Himachal Pradesh.
                 </b-card-text>
               </b-card>
             </b-card-group>
@@ -29,12 +29,11 @@
             <b-card-group deck class="mb-3">
               <b-card
                 border-variant="dark"
-                header="Pick UP/DROP"
+                header="Pick up drop off service"
                 class="text-center"
               >
                 <b-card-text
-                  >Airport/Bustand pickup or drop off service to avoid any
-                  Inconvience.</b-card-text
+                  >Airport/Bus stand pick up or drop off service to avoid any Inconvenience.</b-card-text
                 >
               </b-card>
             </b-card-group>
@@ -69,7 +68,7 @@
               >
                 <b-card-text
                   >Kangra can be reached by Bus, Train & Flight as well -
-                  Gaggal-Kangra Airport is open all year round!.</b-card-text
+                  Gaggal-Kangra Airport is open all year round!</b-card-text
                 >
               </b-card>
             </b-card-group>
@@ -104,7 +103,7 @@
                 class="text-center"
               >
                 <b-card-text>Separate Double-bedroom with Room heaters.<br>
-                24*7 High Speed wireless wifi.<br>
+                24*7 High-Speed wireless wifi.<br>
                Table - Chair & Work Desks to WFH(Himachal).<br>
                 Tea, Breakfast, Lunch & Dinner.<br></b-card-text>
               </b-card>

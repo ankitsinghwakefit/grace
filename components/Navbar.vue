@@ -4,7 +4,7 @@
       <div>
         <!-- Just an image -->
         <b-navbar variant="faded" type="light">
-          <b-navbar-brand href="#">
+          <b-navbar-brand to="/">
             <img class="logoresize" src="~/assets/MuktiLogo.jpg" alt="Kitten" />
           </b-navbar-brand>
         </b-navbar>
@@ -14,10 +14,10 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto myclassone">
-          <b-nav-item href="#">Home</b-nav-item>
-          <b-nav-item href="#">About</b-nav-item>
-           <b-nav-item href="#">Services</b-nav-item>
-          <b-nav-item href="#">Contact</b-nav-item>
+          <b-nav-item to="/">Home</b-nav-item>
+          <b-nav-item to="/about">About</b-nav-item>
+           <b-nav-item to="/services">Services</b-nav-item>
+          <b-nav-item to="/contact">Contact</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
