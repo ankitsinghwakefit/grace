@@ -4,7 +4,7 @@
       <b-row>
         <b-col xl="6" lg="6" md="6" sm="12">
           <div>
-            <img class="logoresize" src="~/assets/MuktiLogo.jpg" alt="Logo" />
+            <img class="logoresize" src="~/assets/MuktiLogo.jpg" alt="Mukti" />
         </div>
           </b-col
         >
@@ -27,7 +27,7 @@
                  Just be boundless & infinite.
              </li>
              <li>
-                 We Welcome you to devbhumi-Himachal Pradesh to get Mukti.
+                 We Welcome you to Devbhumi - Himachal Pradesh to get Mukti.
              </li>
          </ul>
          </div>

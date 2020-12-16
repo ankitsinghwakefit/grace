@@ -12,6 +12,7 @@
             <p>Tel: +91 72249 53427</p>
             <p>Email: muktilisten@gmail.com</p>
             <p>Book a Consultation.</p>
+           <span class="indian">Proudly Indian   </span><b-img src="~/assets/in.png" width="64" alt="placeholder"></b-img> <span class="maataram"> Vande Mataram.</span>
         </div>
         <div class="child-One">
             <p>Suscribe to our new offers.
@@ -75,5 +76,13 @@
   align-items: center;
   flex-direction: column;
 }
+}
+.indian {
+  color: rgb(51, 51, 160);
+  font-weight: bolder;
+}
+.maataram {
+  color: white;
+  font-weight: bolder;
 }
 </style>

@@ -52,7 +52,7 @@
                 <b-card-text
                   >The spectacular Kangra Valley is famous for its magical charm
                   and spellbound beauties, lush green surroundings, revered
-                  goddess temples & famous Kangra Tea.</b-card-text
+                  goddess temples & famous Kangra Tea Bagan.</b-card-text
                 >
               </b-card>
             </b-card-group>

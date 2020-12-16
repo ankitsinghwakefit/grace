@@ -5,7 +5,7 @@
         <!-- Just an image -->
         <b-navbar variant="faded" type="light">
           <b-navbar-brand to="/">
-            <img class="logoresize" src="~/assets/MuktiLogo.jpg" alt="Kitten" />
+            <img class="logoresize" src="~/assets/MuktiLogo.jpg" alt="Mukti" />
           </b-navbar-brand>
         </b-navbar>
       </div>

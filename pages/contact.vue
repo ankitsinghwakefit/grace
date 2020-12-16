@@ -5,6 +5,8 @@
       <b-jumbotron>
         <template #header>Contact</template>
 
+        <ContactForm />
+
         <template #lead>
           Our team is working really hard to give you lifetime memories.
           <br>

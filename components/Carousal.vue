@@ -24,7 +24,7 @@
       <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
       
     </b-carousel>
-    <a href="https://www.solobackpacker.com/offbeat-kangra-valley/">Image Source - solobackpacker</a>
+    <a target="_blank" href="https://www.solobackpacker.com/offbeat-kangra-valley/">Image Source</a>
   </div>
 </template>
 
