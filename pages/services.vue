@@ -8,10 +8,13 @@
         <template #lead>
           Happy Journey, We are here looking forward to welcoming you!<br>
           <ul>
+            <li>Meals + Accommodation.</li>
+            <li>The room comes with cosy comfortable beddings, and stunning mountain views.</li>
               <li>Double bedroom with 1-2 windows for memories.</li>
-              <li>Chair, table & 24*7 high-speed wireless wifi.</li>
+
+              <li> 24*7 Hi-Speed WiFi, laptop-friendly workspace.</li>
               <li>Complete work from home setup with room heaters.</li>
-              <li>24*7 Electricity, water heaters & blankets.</li>
+              <li>Free parking on premises, water heaters & blankets.</li>
               <li>Tea, breakfast, lunch & dinner.</li>
               <li>Pickup & drop facilities to airport or bus stand.</li>
           </ul>

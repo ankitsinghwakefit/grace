@@ -40,7 +40,7 @@
           </div>
         </b-col>
       </b-row>
-      <b-row>
+      <!-- <b-row>
         <b-col xl="6" lg="6" md="6" sm="12">
           <div class="mt-3">
             <b-card-group deck class="mb-3">
@@ -74,7 +74,7 @@
             </b-card-group>
           </div>
         </b-col>
-      </b-row>
+      </b-row> -->
       <b-row>
         <b-col xl="6" lg="6" md="6" sm="12">
           <div class="mt-3">
@@ -102,8 +102,8 @@
                 header="Accommodation"
                 class="text-center"
               >
-                <b-card-text>Separate Double-bedroom with Room heaters.<br>
-                24*7 High-Speed wireless wifi.<br>
+                <b-card-text>High-Speed Internet.<br>
+                Comfortable Stay.<br>
                Table - Chair & Work Desks to WFH(Himachal).<br>
                 Tea, Breakfast, Lunch & Dinner.<br></b-card-text>
               </b-card>
