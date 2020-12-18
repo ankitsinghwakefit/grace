@@ -29,6 +29,53 @@
         <b-button variant="success" href="#">Do Something Else</b-button> -->
       </b-jumbotron>
     </div>
+    <div>
+</div>
+  <div class="container mycon">
+    
+    <b-card
+    overlay
+    img-src="~/assets/pic2small.jpg"
+    img-alt="Card Image"
+    text-variant="white"
+    title="MUKTI - I"
+    
+  >
+    
+  </b-card>
+  
+  </div>
+  <!-- 2nd image ------------------- -->
+
+  <div class="container mycon">
+    
+    <b-card
+    overlay
+    img-src="~/assets/Mukti3small.jpg"
+    img-alt="Card Image"
+    text-variant="white"
+    title="MUKTI - II"
+    
+  >
+    
+  </b-card>
+  
+  </div>
+  <!-- 3rd image------------------------------- -->
+  <div class="container mycon">
+    
+    <b-card
+    overlay
+    img-src="~/assets/Mukti1small.jpg"
+    img-alt="Card Image"
+    text-variant="white"
+    title="MUKTI - III"
+    
+  >
+    
+  </b-card>
+  
+  </div>
     <Footer />
     </div>
 </template>
@@ -80,6 +127,27 @@
 }
 button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* .myclass {
+  width: 1000px;
+}
+.myclass img{
+  width: 100%;
+} */
+.mycon {
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 500px) { 
+ 
+/* .mycon {
+  display: none !important;
+} */
+}
+@media only screen and (max-width: 350px) { 
+  
+/* .mycon {
+  display: none !important;
+} */
 }
 /* .jumbo-Container {
     margin-top: 40px;
