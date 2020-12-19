@@ -4,9 +4,10 @@
         <div class="jumbo-Container">
       <b-jumbotron>
         <template #header>Contact</template>
-
         <ContactForm />
-
+        <!-- <div class="container">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEqm8CYARa2szrxdne3radynbWve9SHAmNOH7xkdT63zyF6g/viewform?embedded=true" width="640" height="705" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div> -->
         <template #lead>
           Our team is working really hard to give you lifetime memories.
           <br>
@@ -82,6 +83,16 @@ button:hover {
 .contactus {
   font-weight: bolder;
   color: palevioletred;
+}
+@media only screen and (max-width: 380px) { 
+.contactFrom {
+  width: 350px;
+}
+}
+@media only screen and (max-width: 600px) { 
+.contactFrom {
+  width: 450px;
+}
 }
 /* .jumbo-Container {
     margin-top: 40px;

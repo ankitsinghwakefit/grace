@@ -63,7 +63,7 @@
       max-rows="6"
     ></b-form-textarea>
     <div class="tetsig4">
-        <b-button v-on:click="displayForm" class="submitBtn" type="submit" variant="primary">Submit</b-button>
+        <b-button  class="submitBtn" type="submit" variant="primary"><a target="_blank" href="https://forms.gle/TWodrXiE7uF5crmWA">Submit</a></b-button>
     </div>
     
   </div>
@@ -156,6 +156,9 @@ export default {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+}
+a {
+    color: #373445;
 }
 
 .button span:after {
