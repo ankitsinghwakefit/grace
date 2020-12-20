@@ -63,7 +63,7 @@
       max-rows="6"
     ></b-form-textarea>
     <div class="tetsig4">
-        <b-button  class="submitBtn" type="submit" variant="primary"><a target="_blank" href="https://forms.gle/TWodrXiE7uF5crmWA">Submit</a></b-button>
+        <b-button  class="submitBtn" type="submit" ><a target="_blank" href="https://forms.gle/TWodrXiE7uF5crmWA">Submit</a></b-button>
     </div>
     
   </div>
