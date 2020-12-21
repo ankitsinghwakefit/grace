@@ -9,7 +9,7 @@
             <p>Himachal Pradesh - 176218</p>
         </div>
         <div class="child-One">
-            <p>Tel: +91 72249 53427</p>
+            <p>Tel: +91 98997 12768</p>
             <p>Email: muktilisten@gmail.com</p>
             <p>Book a Consultation.</p>
            <span class="indian">Proudly Indian   </span><b-img src="~/assets/in.png" width="64" alt="placeholder"></b-img> <span class="maataram"> Vande Mataram.</span>
