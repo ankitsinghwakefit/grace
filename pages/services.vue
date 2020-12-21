@@ -1,45 +1,85 @@
 <template>
   <div>
     <Navbar />
-    <div class="jumbo-Container">
-      <b-jumbotron>
-        <template #header>Services</template>
+    <div class="mycontainer">
+      <b-row>
+        <b-col sm="12" lg="6" xl="6" md="12">
+          <b-jumbotron>
+            <template #header>Services<i class="fab fa-buffer"></i></template>
+
+            <template #lead>
+              Happy Journey, We are here looking forward to welcoming you!<br />
+              <ul>
+                <li>Meals<i class="fas fa-concierge-bell"></i> + Accommodation<i class="fas fa-home"></i>.</li>
+                <li>
+                  The room comes with cosy comfortable beddings, and stunning
+                  mountain views.
+                </li>
+                <li>Double bedroom with 1-2 windows for memories.</li>
+
+                <li>24*7 Hi-Speed WiFi, laptop-friendly workspace.</li>
+                <li>Complete work from home setup with room heaters.</li>
+                <li>Free parking on premises, water heaters & blankets.</li>
+                <li>Tea, breakfast, lunch & dinner.</li>
+                <li>Pickup & drop facilities to airport or bus stand.</li>
+              </ul>
+            </template>
+
+            <hr class="my-4" />
+
+            <p>
+              On-demand Paragliding, Trekking & camping services to gather more
+              memories.
+            </p>
+            <b-link class="button" to="/contact" style="vertical-align:middle"
+              ><span>Book Mukti!</span></b-link
+            >
+            <b-link class="button" to="/" style="vertical-align:middle"
+              ><span>Home</span></b-link
+            >
+            <!-- <b-button variant="primary" href="#">Do Something</b-button>
+        <b-button variant="success" href="#">Do Something Else</b-button> -->
+          </b-jumbotron>
+        </b-col>
+        <b-col sm="12" lg="6" xl="6" md="12">
+          <b-jumbotron>
+        <template #header>Attractions Nearby<i class="fas fa-braille"></i></template>
 
         <template #lead>
-          Happy Journey, We are here looking forward to welcoming you!<br />
+          <i class="fab fa-periscope"></i>Kangra - Famous for diverse attractions!<br />
           <ul>
-            <li>Meals + Accommodation.</li>
+            <li>Trekker’s delight, <span class="attraction-Name">Triund</span><i class="fas fa-campground"></i>.</li>
             <li>
-              The room comes with cosy comfortable beddings, and stunning
-              mountain views.
+              Sparkling waters and rocky background, <span class="attraction-Name">Bhagsu Waterfall</span><i class="fas fa-swimmer"></i>.
             </li>
-            <li>Double bedroom with 1-2 windows for memories.</li>
+            <li><span class="attraction-Name">Andretta</span> - Picturesque haven for artists, art aficionados, and tourists<i class="fas fa-tree"></i>.</li>
 
-            <li>24*7 Hi-Speed WiFi, laptop-friendly workspace.</li>
-            <li>Complete work from home setup with room heaters.</li>
-            <li>Free parking on premises, water heaters & blankets.</li>
-            <li>Tea, breakfast, lunch & dinner.</li>
-            <li>Pickup & drop facilities to airport or bus stand.</li>
+            <li><span class="attraction-Name">Mcleodganj</span> - The culturally rich town<i class="fas fa-gopuram"></i>.</li>
+            <li><span class="attraction-Name">Kaleshwar Mahadev Temple</span><i class="fas fa-om"></i>.</li>
+            <li><span class="attraction-Name">Kareri Lake</span><i class="fas fa-water"></i>.</li>
+            <li><span class="attraction-Name">Jwala Devi Temple</span><i class="fas fa-fire"></i>.</li>
+            <li><span class="attraction-Name">Dharamshala Cricket Stadium</span><i class="fas fa-baseball-ball"></i>.</li>
           </ul>
         </template>
 
         <hr class="my-4" />
 
         <p>
-          On-demand Paragliding, Trekking & camping services to gather more
-          memories.
+          Also Bird watching, Star gazing, Village walk, Forest walk, Yoga & Meditation.
         </p>
-        <b-link class="button" to="/contact" style="vertical-align:middle"
+        <!-- <b-link class="button" to="/contact" style="vertical-align:middle"
           ><span>Book Mukti!</span></b-link
         >
         <b-link class="button" to="/" style="vertical-align:middle"
           ><span>Home</span></b-link
-        >
+        > -->
         <!-- <b-button variant="primary" href="#">Do Something</b-button>
         <b-button variant="success" href="#">Do Something Else</b-button> -->
       </b-jumbotron>
+        </b-col>
+      </b-row>
     </div>
-    <div></div>
+
     <!-- --------------------------- all pacakages -------------- -->
 
     <!-- <div>
@@ -226,6 +266,15 @@
 </template>
 
 <style scoped>
+.attraction-Name {
+  color: palevioletred;
+  font-size: 26px;
+  font-weight: bolder;
+}
+.mycontainer {
+  width: 90%;
+  margin: 0 auto;
+}
 .jumbotron {
   background-color: #373445 !important;
   color: #ab9856;
