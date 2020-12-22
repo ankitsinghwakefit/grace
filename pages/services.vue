@@ -42,29 +42,30 @@
           </b-jumbotron>
         </b-col>
         <b-col sm="12" lg="6" xl="6" md="12">
-          <b-jumbotron>
-        <template #header>Attractions Nearby<i class="fas fa-braille"></i></template>
+          <div class="ourJumbo">
+        <h2 class="ourJumboH">Attractions Nearby<i class="fas fa-braille"></i></h2>
 
-        <template #lead>
+        <div>
           <i class="fab fa-periscope"></i>Kangra - Famous for diverse attractions!<br />
           <ul>
             <li>Trekker’s delight, <span class="attraction-Name">Triund</span><i class="fas fa-campground"></i>.</li>
             <li>
-              Sparkling waters and rocky background, <span class="attraction-Name">Bhagsu Waterfall</span><i class="fas fa-swimmer"></i>.
+              <span class="attraction-Name">Bhagsu Waterfall</span><i class="fas fa-swimmer"></i>.
             </li>
-            <li><span class="attraction-Name">Andretta</span> - Picturesque haven for artists, art aficionados, and tourists<i class="fas fa-tree"></i>.</li>
+            <li><span class="attraction-Name">Andretta</span> - Picturesque haven<i class="fas fa-tree"></i>.</li>
 
             <li><span class="attraction-Name">Mcleodganj</span> - The culturally rich town<i class="fas fa-gopuram"></i>.</li>
             <li><span class="attraction-Name">Kaleshwar Mahadev Temple</span><i class="fas fa-om"></i>.</li>
             <li><span class="attraction-Name">Kareri Lake</span><i class="fas fa-water"></i>.</li>
             <li><span class="attraction-Name">Jwala Devi Temple</span><i class="fas fa-fire"></i>.</li>
             <li><span class="attraction-Name">Dharamshala Cricket Stadium</span><i class="fas fa-baseball-ball"></i>.</li>
+            <li><span class="attraction-Name">Famous Tea Bagan</span><i class="fas fa-seedling"></i>.</li>
           </ul>
-        </template>
+        </div>
 
         <hr class="my-4" />
 
-        <p>
+        <p class="myJumboPara">
           Also Bird watching, Star gazing, Village walk, Forest walk, Yoga & Meditation.
         </p>
         <!-- <b-link class="button" to="/contact" style="vertical-align:middle"
@@ -75,7 +76,7 @@
         > -->
         <!-- <b-button variant="primary" href="#">Do Something</b-button>
         <b-button variant="success" href="#">Do Something Else</b-button> -->
-      </b-jumbotron>
+      </div>
         </b-col>
       </b-row>
     </div>
@@ -268,16 +269,32 @@
 <style scoped>
 .attraction-Name {
   color: palevioletred;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bolder;
 }
 .mycontainer {
   width: 90%;
   margin: 0 auto;
 }
-.jumbotron {
+.jumbotron{
   background-color: #373445 !important;
   color: #ab9856;
+}
+.ourJumbo {
+   background-color: #373445 !important;
+  color: #ab9856;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.ourJumboH{
+  font-size: 45px !important;
+  font-weight: normal;
+  margin-top: 30px;
+}
+.myJumboPara {
+  font-size: 16px !important;
 }
 .button {
   display: inline-block;
@@ -400,10 +417,36 @@ button:hover {
 .mycon {
   margin-bottom: 20px;
 }
-@media only screen and (max-width: 500px) {
-  /* .mycon {
-  display: none !important;
-} */
+@media only screen and (max-width: 750px) {
+  .ourJumbo {
+   background-color: #373445 !important;
+  color: #ab9856;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.ourJumboH{
+  font-size: 30px !important;
+  font-weight: normal;
+  margin-top: 30px;
+}
+.mycontainer {
+  width: 100%;
+  margin: 0 0;
+  margin-bottom: 20px;
+}
+.attraction-Name {
+  color: palevioletred;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.col {
+  margin: 0 !important;
+}
+.row {
+  margin: 0 !important;
+}
 }
 @media only screen and (max-width: 350px) {
   /* .mycon {
