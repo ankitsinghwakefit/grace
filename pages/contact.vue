@@ -1,13 +1,9 @@
 <template>
     <div>
         <Navbar />
-        <div class="jumbo-Container">
+        <!-- <div class="jumbo-Container">
       <b-jumbotron>
         <template #header>Contact</template>
-        <ContactForm />
-        <!-- <div class="container">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEqm8CYARa2szrxdne3radynbWve9SHAmNOH7xkdT63zyF6g/viewform?embedded=true" width="640" height="705" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div> -->
         <template #lead>
           Our team is working really hard to give you lifetime memories.
           <br>
@@ -16,7 +12,7 @@
           Also, write to us at <span class="contactus">muktilisten@gmail.com</span>
           
         </template>
-        
+        <ContactForm />
         <hr class="my-4" />
 
         <p>
@@ -24,9 +20,31 @@
         </p>
         <b-link class="button" to="/about" style="vertical-align:middle"><span>About us</span></b-link>
         <b-link class="button" to="/services" style="vertical-align:middle"><span>Services</span></b-link>
-        <!-- <b-button variant="primary" href="#">Do Something</b-button>
-        <b-button variant="success" href="#">Do Something Else</b-button> -->
+        
       </b-jumbotron>
+    </div> -->
+    <div class="myContainer">
+      <div class="myChildContainer">
+        <div class="childParent">
+        <h2 class="myh2">Contact Us</h2>
+        <div class="contents">
+          Our team is working really hard to give you lifetime memories.
+          <br>
+          We are just a miscall away, Give it on <span class="contactus">98997 12768</span>.
+          <br>
+          Also, write to us at <span class="contactus">muktilisten@gmail.com</span>
+          
+        </div>
+        <ContactForm />
+        <hr class="my-4" />
+
+        <p>
+          We entertain your requests within 2 Minutes, Let's try!
+        </p>
+        <b-link class="button" to="/about" style="vertical-align:middle"><span>About us</span></b-link>
+        <b-link class="button" to="/services" style="vertical-align:middle"><span>Services</span></b-link>
+        </div>
+      </div>
     </div>
     <Footer />
     </div>
@@ -37,16 +55,33 @@
     background-color:#373445 !important; 
     color : #AB9856;
 }
+.myContainer {
+  background-color:#373445 !important; 
+    color : #AB9856;
+  margin-bottom: 30px;
+}
+.childParent {
+  padding: 20px;
+}
+.myh2 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+.contents {
+  font-size: 18px;
+  padding: 18px 0;
+  line-height: 1.5;
+}
 .button {
   display: inline-block;
-  border-radius: 13px;
+  border-radius: 8px;
   background-color: #AB9856;
   border: none;
   color: #373445;
   text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 250px;
+  font-size: 20px;
+  padding: 10px;
+  width: 230px;
   transition: all 0.5s;
   font-weight: bolder;
   cursor: pointer;
@@ -93,8 +128,65 @@ button:hover {
 .contactFrom {
   width: 450px;
 }
+.contents {
+  font-size: 15px;
+  padding: 18px 0;
+  line-height: 1.5;
 }
-/* .jumbo-Container {
-    margin-top: 40px;
-} */
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #AB9856;
+  border: none;
+  color: #373445;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 160px;
+  transition: all 0.5s;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 5px;
+}
+p {
+  font-size: 14px;
+}
+}
+.jumbo-Container {
+   width: 60%;
+   margin: 0 auto;
+}
+.myChildContainer {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 900px) { 
+.contents {
+  font-size: 16px;
+  padding: 18px 0;
+  line-height: 1.5;
+}
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #AB9856;
+  border: none;
+  color: #373445;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 5px;
+}
+p {
+  font-size: 15px;
+}
+
+}
 </style>

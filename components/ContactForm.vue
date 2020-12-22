@@ -115,19 +115,19 @@ export default {
 
 <style scoped>
 .testing {
-    width: 40%;
+    width: 100%;
     border: 1px solid #ab9856;
     border-radius: 8px;
     padding: 8px;
 }
 @media only screen and (max-width: 1000px) {
     .testing {
-    width: 80%;
+    width: 100%;
 }
  }
  @media only screen and (max-width: 800px) {
     .testing {
-    width: 90%;
+    width: 100%;
 }
  }
  @media only screen and (max-width: 750px) {

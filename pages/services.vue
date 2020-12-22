@@ -5,7 +5,8 @@
       <b-row>
         <b-col sm="12" lg="6" xl="6" md="12">
           <b-jumbotron>
-            <template #header>Services<i class="fab fa-buffer"></i></template>
+            
+            <template #header>Services</template>
 
             <template #lead>
               Happy Journey, We are here looking forward to welcoming you!<br />
@@ -48,18 +49,18 @@
         <div>
           <i class="fab fa-periscope"></i>Kangra - Famous for diverse attractions!<br />
           <ul>
-            <li>Trekker’s delight, <span class="attraction-Name">Triund</span><i class="fas fa-campground"></i>.</li>
+            <li>Trekker’s delight, <span class="attraction-Name">Triund</span><i class="fas fa-campground"></i></li>
             <li>
-              <span class="attraction-Name">Bhagsu Waterfall</span><i class="fas fa-swimmer"></i>.
+              <span class="attraction-Name">Bhagsu Waterfall</span><i class="fas fa-swimmer"></i>
             </li>
-            <li><span class="attraction-Name">Andretta</span> - Picturesque haven<i class="fas fa-tree"></i>.</li>
+            <li><span class="attraction-Name">Andretta</span> - Picturesque haven<i class="fas fa-tree"></i></li>
 
-            <li><span class="attraction-Name">Mcleodganj</span> - The culturally rich town<i class="fas fa-gopuram"></i>.</li>
-            <li><span class="attraction-Name">Kaleshwar Mahadev Temple</span><i class="fas fa-om"></i>.</li>
-            <li><span class="attraction-Name">Kareri Lake</span><i class="fas fa-water"></i>.</li>
-            <li><span class="attraction-Name">Jwala Devi Temple</span><i class="fas fa-fire"></i>.</li>
-            <li><span class="attraction-Name">Dharamshala Cricket Stadium</span><i class="fas fa-baseball-ball"></i>.</li>
-            <li><span class="attraction-Name">Famous Tea Bagan</span><i class="fas fa-seedling"></i>.</li>
+            <li><span class="attraction-Name">Mcleodganj</span> - The culturally rich town<i class="fas fa-gopuram"></i></li>
+            <li><span class="attraction-Name">Kaleshwar Mahadev Temple</span><i class="fas fa-om"></i></li>
+            <li><span class="attraction-Name">Kareri Lake</span><i class="fas fa-water"></i></li>
+            <li><span class="attraction-Name">Jwala Devi Temple</span><i class="fas fa-fire"></i></li>
+            <li><span class="attraction-Name">Dharamshala Cricket Stadium</span><i class="fas fa-baseball-ball"></i></li>
+            <li><span class="attraction-Name">Famous Tea Bagan</span><i class="fas fa-seedling"></i></li>
           </ul>
         </div>
 
@@ -417,7 +418,7 @@ button:hover {
 .mycon {
   margin-bottom: 20px;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .ourJumbo {
    background-color: #373445 !important;
   color: #ab9856;
@@ -446,6 +447,10 @@ button:hover {
 }
 .row {
   margin: 0 !important;
+}
+i {
+  margin: 3px;
+  font-size: 22px;
 }
 }
 @media only screen and (max-width: 350px) {
