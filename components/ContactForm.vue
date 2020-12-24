@@ -92,6 +92,7 @@
 
         <b-button class="mt-4" type="submit" variant="primary">Submit</b-button>
       </b-form>
+      <b-modal v-model="form.modalShow">Hello From Modal!</b-modal>
     </div>
   </div>
 </template>
@@ -104,15 +105,14 @@ export default {
       form: {
         name: "",
         number: "",
-        msg: ""
+        msg: "",
+        modalShow: false
       }
     };
   },
   methods: {
     onSubmit(event) {
       event.preventDefault();
-      alert(JSON.stringify(this.form));
-      console.log(this.form);
       axios
         .post("https://muktiv2.herokuapp.com/", {
           name: this.form.name,
@@ -120,11 +120,19 @@ export default {
           msg: this.form.msg
         })
         .then(function(response) {
-          console.log(response);
+          
+          if(response.data == "done"){
+           alert("Thanks we will revert soon!")
+          }
+          
         })
         .catch(function(error) {
-          console.log(error);
+          alert("Error - Form not submitted!")
         });
+        this.form.name = "";
+        this.form.number = "";
+        this.form.msg = "";
+        // this.form.modalShow = true;
     }
   }
 };

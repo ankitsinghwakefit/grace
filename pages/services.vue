@@ -82,6 +82,57 @@
       </b-row>
     </div>
 
+<!-- -------------------------- modal --------------------------------- -->
+
+  <div v-if="form.showModal" class="myModal">
+    <div class="modalChild">
+    <b-form @submit="onSubmit">
+        <b-form-group id="input-group-1" label="Name:" label-for="input-1">
+          <b-form-input
+            id="input-1"
+            v-model="form.name"
+            type="text"
+            placeholder="Enter Name"
+            required
+          ></b-form-input>
+        </b-form-group>
+
+        <b-form-group
+          id="input-group-2"
+          label="Your Number:"
+          label-for="input-2"
+        >
+          <b-form-input
+            id="input-2"
+            v-model="form.number"
+            type="number"
+            placeholder="Enter Number"
+            required
+          ></b-form-input>
+        </b-form-group>
+
+        <b-form-group
+          id="input-group-3"
+          label="Your Msg:"
+          label-for="textarea"
+        >
+        <b-form-textarea
+        
+          id="textarea"
+          v-model="form.msg"
+          placeholder="Are you planning weekly/Monthly..."
+          rows="3"
+          max-rows="6"
+        ></b-form-textarea></b-form-group>
+
+        <b-button class="mt-4" type="submit" variant="primary">Submit</b-button>
+        <b-button class="mt-4" @click="closeModal" variant="primary">Close</b-button>
+      </b-form>
+
+    <!-- <button @click="closeModal">Close</button> -->
+    </div>
+  </div>
+
     <!-- --------------------------- all pacakages -------------- -->
 
     <!-- <div>
@@ -125,11 +176,14 @@
               <i class="fas fa-rupee-sign"></i>9,900 Onwards
             </b-card-text>
 
-            <b-button
+            <b-button @click="getQuote"
+              >Get Quotes</b-button
+            >
+            <!-- <b-button
               ><a target="_blank" href="https://forms.gle/uvsTYBYKvULdVvme7"
                 >Get Quotes</a
               ></b-button
-            >
+            > -->
           </b-card>
         </b-col>
         <b-col sm="12" lg="4" xl="4" md="12">
@@ -153,12 +207,15 @@
             <b-card-text>
               <i class="fas fa-rupee-sign"></i>18,000 Onwards
             </b-card-text>
+             <b-button @click="getQuote"
+              >Get Quotes</b-button
+            >
 
-            <b-button
+            <!-- <b-button
               ><a target="_blank" href="https://forms.gle/uvsTYBYKvULdVvme7"
                 >Get Quotes</a
               ></b-button
-            >
+            > -->
           </b-card>
         </b-col>
         <b-col sm="12" lg="4" xl="4" md="12">
@@ -182,11 +239,14 @@
             <b-card-text>
               <i class="fas fa-rupee-sign"></i>30,000 Onwards
             </b-card-text>
-            <b-button
+             <b-button @click="getQuote"
+              >Get Quotes</b-button
+            >
+            <!-- <b-button
               ><a target="_blank" href="https://forms.gle/uvsTYBYKvULdVvme7"
                 >Get Quotes</a
               ></b-button
-            >
+            > -->
           </b-card>
         </b-col>
       </b-row>
@@ -267,7 +327,79 @@
   </div>
 </template>
 
+<script>
+const axios = require("axios");
+export default {
+  data() {
+    return {
+      form : {
+        name: "",
+        number: "",
+        mag: "",
+         showModal : false
+      }
+    };
+  },
+  methods: {
+    getQuote(){
+      this.form.showModal = true;
+      console.log("im listening",this.form.showModal);
+    },
+    closeModal(){
+      this.form.showModal = false;
+    },
+    onSubmit(event) {
+      event.preventDefault();
+      axios
+        .post("https://muktiv2.herokuapp.com/", {
+          name: this.form.name,
+          number: this.form.number,
+          msg: this.form.msg
+        })
+        .then(function(response) {
+          
+          if(response.data == "done"){
+           alert("Thanks we will revert soon!")
+          }
+          
+        })
+        .catch(function(error) {
+          alert("Error - Form not submitted!")
+        });
+        this.form.name = "";
+        this.form.number = "";
+        this.form.msg = "";
+        // this.form.modalShow = true;
+        this.form.showModal = false;
+    }
+  }
+};
+</script>
+
 <style scoped>
+.myModal{
+  z-index: 990;
+  position: fixed;
+   top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #434246;
+  opacity: .9;
+}
+.modalChild {
+  z-index: 980;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+   padding: 17px;
+   border-radius: 8px;
+   opacity: 1.2;
+   /* font-size: 20px; */
+   font-weight: bolder;
+  background-color: #ffffff;
+}
 .attraction-Name {
   color: palevioletred;
   font-size: 24px;
@@ -419,6 +551,31 @@ button:hover {
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 768px) {
+  .myModal{
+  z-index: 990;
+  position: fixed;
+   top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #434246;
+  opacity: .9;
+}
+.modalChild {
+  z-index: 980;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  
+   padding: 17px;
+   border-radius: 8px;
+   opacity: 1.2;
+   /* font-size: 20px; */
+   font-weight: bolder;
+  background-color: #ffffff;
+}
   .ourJumbo {
    background-color: #373445 !important;
   color: #ab9856;
