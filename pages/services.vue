@@ -69,6 +69,10 @@
         <p class="myJumboPara">
           Also Bird watching, Star gazing, Village walk, Forest walk, Yoga & Meditation.
         </p>
+         <button class="buttonTravel" @click="getQuote" style="vertical-align:middle"
+              ><span>Travel Support!</span></button
+            >
+            
         <!-- <b-link class="button" to="/contact" style="vertical-align:middle"
           ><span>Book Mukti!</span></b-link
         >
@@ -85,6 +89,7 @@
 <!-- -------------------------- modal --------------------------------- -->
 
   <div v-if="form.showModal" class="myModal">
+    <particles-bg type="lines" :bg="true" />
     <div class="modalChild">
     <b-form @submit="onSubmit">
         <b-form-group id="input-group-1" label="Name:" label-for="input-1">
@@ -328,6 +333,7 @@
 </template>
 
 <script>
+import { ParticlesBg } from "particles-bg-vue";
 const axios = require("axios");
 export default {
   data() {
@@ -339,6 +345,9 @@ export default {
          showModal : false
       }
     };
+  },
+  components : {
+   ParticlesBg
   },
   methods: {
     getQuote(){
@@ -393,6 +402,7 @@ export default {
   position: fixed;
   top: 50%;
   left: 50%;
+  width: 40%;
    padding: 17px;
    border-radius: 8px;
    opacity: 1.2;
@@ -443,6 +453,48 @@ export default {
   font-weight: bolder;
   cursor: pointer;
   margin: 5px;
+}
+.buttonTravel {
+  display: inline-block;
+  border-radius: 13px;
+  background-color: #ab9856;
+  border: none;
+  color: #373445;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 5px;
+}
+.buttonTravel span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.buttonTravel span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonTravel:hover span {
+  padding-right: 25px;
+}
+
+.buttonTravel:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.buttonTravel:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .caro {
   margin-bottom: 25px;

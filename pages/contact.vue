@@ -30,9 +30,8 @@
         <div class="contents">
           Our team is working really hard to give you lifetime memories.
           <br>
-          We are just a miscall away, Give it on <span class="contactus">98997 12768</span>.
-          <br>
-          Also, write to us at <span class="contactus">muktilisten@gmail.com</span>
+          <i class="fas fa-phone-square-alt"></i> <span class="contactus">+91 98997 12768</span> |
+          <i class="fas fa-envelope"></i> <span class="contactus">muktilisten@gmail.com</span>
           
         </div>
         <ContactForm />
@@ -51,6 +50,19 @@
 </template>
 
 <style scoped>
+i {
+  font-size: 18px;
+}
+.contactus {
+  font-weight: bolder;
+  color: palevioletred;
+  font-size: 18px;
+}
+.contents {
+  font-size: 18px;
+  padding: 18px 0;
+  line-height: 1.5;
+}
 .jumbotron {
     background-color:#373445 !important; 
     color : #AB9856;
@@ -67,11 +79,7 @@
   font-size: 60px;
   margin: 20px 0;
 }
-.contents {
-  font-size: 18px;
-  padding: 18px 0;
-  line-height: 1.5;
-}
+
 .button {
   display: inline-block;
   border-radius: 8px;
@@ -115,10 +123,7 @@
 button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.contactus {
-  font-weight: bolder;
-  color: palevioletred;
-}
+
 @media only screen and (max-width: 380px) { 
 .contactFrom {
   width: 350px;
@@ -129,7 +134,7 @@ button:hover {
   width: 450px;
 }
 .contents {
-  font-size: 15px;
+  font-size: 14px;
   padding: 18px 0;
   line-height: 1.5;
 }
