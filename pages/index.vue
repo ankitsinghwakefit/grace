@@ -62,4 +62,52 @@
   color: #35495e;
   letter-spacing: 1px;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.vue-typer .custom.char {
+  font-size: 30px;
+  color: #373445 ;
+  font-weight: bolder;
+  background-color: #AB9856;
+}
+.vue-typer .custom.char.selected {
+  background-color: #AB9856;
+}
+
+.vue-typer .custom.caret {
+  width: 10px;
+  background-color: palevioletred;
+}
+@media only screen and (max-width: 900px) {
+  .vue-typer .custom.char {
+  font-size: 25px;
+  color: #373445 ;
+  font-weight: bolder;
+  background-color: #AB9856;
+}
+.vue-typer .custom.char.selected {
+  background-color: #AB9856;
+}
+
+.vue-typer .custom.caret {
+  width: 10px;
+  background-color: palevioletred;
+}
+}
+@media only screen and (max-width: 768px) {
+  .vue-typer .custom.char {
+  font-size: 20px;
+  color: #373445 ;
+  font-weight: bolder;
+  background-color: #AB9856;
+}
+.vue-typer .custom.char.selected {
+  background-color: #AB9856;
+}
+
+.vue-typer .custom.caret {
+  width: 10px;
+  background-color: palevioletred;
+}
+}
 </style>

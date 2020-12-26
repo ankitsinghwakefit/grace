@@ -662,6 +662,13 @@ i {
   font-size: 22px;
 }
 }
+@media only screen and (max-width: 900px) {
+  .mycontainer {
+  width: 100%;
+  margin: 0 0;
+  margin-bottom: 20px;
+}
+}
 @media only screen and (max-width: 350px) {
   /* .mycon {
   display: none !important;

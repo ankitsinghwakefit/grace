@@ -30,7 +30,7 @@
         <div class="contents">
           Our team is working really hard to give you lifetime memories.
           <br>
-          <i class="fas fa-phone-square-alt"></i> <span class="contactus">+91 98997 12768</span> |
+          <i class="fas fa-phone-square-alt"></i> <span class="contactus">+91 98997 12768</span> <br>
           <i class="fas fa-envelope"></i> <span class="contactus">muktilisten@gmail.com</span>
           
         </div>

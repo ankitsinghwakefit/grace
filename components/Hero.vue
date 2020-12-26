@@ -1,5 +1,19 @@
 <template>
   <div class="heroImg">
+    <!-- <vue-typer type='Array' text='Hello World! I was registered locally!'></vue-typer> -->
+    <p> Weather you are : <vue-typer class="mytyper"
+  :text='["Tourist","A Nature lover","Employee","Businessman","Pilgrim"]'
+  :repeat='Infinity'
+  :shuffle='false'
+  initial-action='typing'
+  :pre-type-delay='70'
+  :type-delay='70'
+  :pre-erase-delay='2000'
+  :erase-delay='250'
+  erase-style='select-all'
+  :erase-on-complete='false'
+  caret-animation='blink'
+></vue-typer></p>
       <h1>MUKTI</h1>
       <h3> ~ let's escape this town for a little while ~ </h3>
       <!-- <button>Let's Get IT!</button> -->
@@ -72,6 +86,70 @@ h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+p {
+  font-size: 30px;
+  color: #AB9856;
+}
+
+.vue-typer .custom.char {
+  color: #D4D4BD;
+  background-color: #1E1E1E;
+}
+.vue-typer .custom.char.selected {
+  background-color: #264F78;
+}
+
+.vue-typer .custom.caret {
+  width: 10px;
+  background-color: #3F51B5;
+}
+@media only screen and (max-width: 900px) {
+  .button {
+  display: inline-block;
+  border-radius: 13px;
+  background-color: #AB9856;
+  border: none;
+  color: #373445;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 290px;
+  transition: all 0.5s;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 5px;
+}
+h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    color: #AB9856;
+}
+h3 {
+    font-size: 40px;
+    color: #AB9856;
+    font-family: 'Lobster', cursive;
+}
+.heroImg {
+    width: 100%;
+    height: 58vh;
+    background-color: #373445;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+p {
+  font-size: 25px;
+  color: #AB9856;
+}
+}
+@media only screen and (max-width: 786px) {
+  p {
+  font-size: 20px;
+  color: #AB9856;
+}
 }
 
 </style>
