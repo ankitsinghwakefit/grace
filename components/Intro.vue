@@ -40,10 +40,13 @@
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .introcontainer {
     margin-bottom: 50px;
+    background-color: #bfd9d6 !important;
+      font-family: 'Andika New Basic', sans-serif;
+
 }
 .home {
     text-decoration: line-through;

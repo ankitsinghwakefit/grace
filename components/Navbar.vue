@@ -40,5 +40,6 @@
     }
 .navbar.navbar-dark.bg-dark {
   background-color: #bfd9d6 !important;
+  
 }
 </style>

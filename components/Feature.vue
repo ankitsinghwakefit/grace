@@ -116,6 +116,7 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 .card-text {
   color: #373445;
   font-size: 20px;
@@ -130,16 +131,18 @@
   font-weight: bolder;
 }
 .card-header {
-  background-color: #ab9856;
+  background-color: #658EA9;
   color: #373445;
   font-size: 25px;
+  font-weight: bolder;
 }
 .featurecontainer {
-  background-color: #373445;
+   background-color: #E7D4C0;
   padding-bottom: 50px;
+  font-family: 'Andika New Basic', sans-serif;
 }
 .featureheading {
-  color: #ab9856;
+  color: #373445;
   display: flex;
   justify-content: center;
   align-items: center;

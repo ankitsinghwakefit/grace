@@ -5,6 +5,7 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 html {
   font-family:
     'Source Sans Pro',
@@ -31,7 +32,9 @@ html {
   margin: 0;
 }
 body {
-  background-color: #bfd9d6;
+  background-color: #E7D4C0;
+        font-family: 'Andika New Basic', sans-serif;
+
 }
 
 

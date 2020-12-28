@@ -70,7 +70,8 @@ i {
 .myContainer {
   background-color:#373445 !important; 
     color : #AB9856;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .childParent {
   padding: 20px;

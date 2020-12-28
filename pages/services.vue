@@ -418,6 +418,7 @@ export default {
 .mycontainer {
   width: 90%;
   margin: 0 auto;
+  margin-top: 20px;
 }
 .jumbotron{
   background-color: #373445 !important;
@@ -667,6 +668,7 @@ i {
   width: 100%;
   margin: 0 0;
   margin-bottom: 20px;
+    margin-top: 20px;
 }
 }
 @media only screen and (max-width: 350px) {

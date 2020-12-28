@@ -1,5 +1,6 @@
 <template>
   <div class="heroImg">
+    <div class="heroPic">
     <!-- <vue-typer type='Array' text='Hello World! I was registered locally!'></vue-typer> -->
     <p> Weather you are : <vue-typer class="mytyper"
   :text='["Tourist","A Nature lover","Employee","Businessman","Pilgrim"]'
@@ -14,10 +15,11 @@
   :erase-on-complete='false'
   caret-animation='blink'
 ></vue-typer></p>
-      <h1>MUKTI</h1>
+      
       <h3> ~ let's escape this town for a little while ~ </h3>
       <!-- <button>Let's Get IT!</button> -->
       <b-link to="/contact" class="button" style="vertical-align:middle"><span>Chalo, Let's Go!</span></b-link>
+      </div>
   </div>
 </template>
 
@@ -27,13 +29,14 @@
 .button {
   display: inline-block;
   border-radius: 13px;
-  background-color: #AB9856;
-  border: none;
+  /* background-color: #FFA384; */
+  box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.75);
+  border: 1px groove #373445;
   color: #373445;
   text-align: center;
   font-size: 28px;
-  padding: 20px;
-  width: 260px;
+  padding: 15px;
+  width: 280px;
   transition: all 0.5s;
   font-weight: bolder;
   cursor: pointer;
@@ -70,17 +73,30 @@ button:hover {
 h1 {
     font-size: 100px;
     font-weight: bolder;
-    color: #AB9856;
+    color: #373445;
 }
 h3 {
     font-size: 50px;
-    color: #AB9856;
+    color: #373445;
     font-family: 'Lobster', cursive;
 }
 .heroImg {
     width: 100%;
     height: 63vh;
-    background-color: #373445;
+    /* background-color: #FFA384; */
+    /* display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+}
+.heroPic {
+  background-image: url("~assets/heroImg.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
   justify-content: center;
@@ -89,7 +105,7 @@ h3 {
 }
 p {
   font-size: 30px;
-  color: #AB9856;
+  color: #373445;
 }
 
 .vue-typer .custom.char {
@@ -108,8 +124,9 @@ p {
   .button {
   display: inline-block;
   border-radius: 13px;
-  background-color: #AB9856;
-  border: none;
+  box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.75);
+  /* border: 1px dotted #373445; */
+  
   color: #373445;
   text-align: center;
   font-size: 28px;
@@ -123,11 +140,11 @@ p {
 h1 {
     font-size: 80px;
     font-weight: bolder;
-    color: #AB9856;
+    color: #373445;
 }
 h3 {
     font-size: 40px;
-    color: #AB9856;
+   color: #373445;
     font-family: 'Lobster', cursive;
 }
 .heroImg {
@@ -142,13 +159,55 @@ h3 {
 }
 p {
   font-size: 25px;
-  color: #AB9856;
+  color: #373445;
 }
 }
 @media only screen and (max-width: 786px) {
   p {
   font-size: 20px;
-  color: #AB9856;
+  color: #373445;
+}
+}
+@media only screen and (max-width: 350px) {
+  .button {
+  display: inline-block;
+  border-radius: 13px;
+  box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.75);
+  border: 1px groove #373445;
+  
+  color: #373445;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 270px;
+  transition: all 0.5s;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 4px;
+}
+h1 {
+    font-size: 65px;
+    font-weight: bolder;
+    color: #373445;
+}
+h3 {
+    font-size: 30px;
+    color: #373445;
+    font-family: 'Lobster', cursive;
+}
+.heroImg {
+    width: 100%;
+    height: 63vh;
+    background-color: #373445;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  color: #373445;
 }
 }
 
