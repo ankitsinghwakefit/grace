@@ -1,5 +1,6 @@
 <template>
 <div class="footer-container">
+  
     <div class="footer-child">
         <div class="child-One">
             <h2>Contact</h2>

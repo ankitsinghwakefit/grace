@@ -23,6 +23,7 @@
         
       </b-jumbotron>
     </div> -->
+    <particles-bg type="circle" :bg="true" />
     <div class="myContainer">
       <div class="myChildContainer">
         <div class="childParent">

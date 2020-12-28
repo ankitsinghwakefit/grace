@@ -1,5 +1,6 @@
 <template>
   <div class="introcontainer">
+      
     <b-container>
       <b-row>
         <b-col xl="6" lg="6" md="6" sm="12">

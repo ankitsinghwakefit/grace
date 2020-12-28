@@ -1,6 +1,9 @@
 <template>
+
   <div class="featurecontainer">
+   
     <b-container class="">
+      
       <b-row>
         <div class="featureheading">
           Features

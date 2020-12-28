@@ -26,6 +26,7 @@
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .button {
   display: inline-block;
   border-radius: 13px;
@@ -102,6 +103,7 @@ h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
+/* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);} */
 }
 p {
   font-size: 30px;

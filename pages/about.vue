@@ -1,6 +1,7 @@
 <template>
   <div>
     <Navbar />
+    <particles-bg type="circle" :bg="true" />
     <div class="jumbo-Container">
       <b-jumbotron>
         <template #header>About Us ;-(!)</template>

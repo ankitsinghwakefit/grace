@@ -1,5 +1,6 @@
 <template>
   <div>
+    <particles-bg type="circle" :bg="true" />
     <Navbar />
     <div class="mycontainer">
       <b-row>
@@ -89,7 +90,7 @@
 <!-- -------------------------- modal --------------------------------- -->
 
   <div v-if="form.showModal" class="myModal">
-    <particles-bg type="lines" :bg="true" />
+    <particles-bg type="circle" :bg="true" />
     <div class="modalChild">
     <b-form @submit="onSubmit">
         <b-form-group id="input-group-1" label="Name:" label-for="input-1">
@@ -333,7 +334,7 @@
 </template>
 
 <script>
-import { ParticlesBg } from "particles-bg-vue";
+// import { ParticlesBg } from "particles-bg-vue";
 const axios = require("axios");
 export default {
   data() {
@@ -346,9 +347,9 @@ export default {
       }
     };
   },
-  components : {
-   ParticlesBg
-  },
+  // components : {
+  //  ParticlesBg
+  // },
   methods: {
     getQuote(){
       this.form.showModal = true;
