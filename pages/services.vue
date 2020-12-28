@@ -162,7 +162,7 @@
         <b-col sm="12" lg="4" xl="4" md="12">
           <b-card
             title="Weekly lodging"
-            img-src="~/assets/service1.jpg"
+            img-src="~/assets/Servics1.jpg"
             img-alt="Image"
             img-top
             tag="article"
@@ -194,7 +194,7 @@
         <b-col sm="12" lg="4" xl="4" md="12">
           <b-card
             title="Fortnightly lodging"
-            img-src="~/assets/service2.jpg"
+            img-src="~/assets/servics2.jpg"
             img-alt="Image"
             img-top
             tag="article"
@@ -226,7 +226,7 @@
         <b-col sm="12" lg="4" xl="4" md="12">
           <b-card
             title="Monthly lodging"
-            img-src="~/assets/service3.jpg"
+            img-src="~/assets/servics3.jpg"
             img-alt="Image"
             img-top
             tag="article"
