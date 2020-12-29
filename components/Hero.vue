@@ -1,7 +1,30 @@
 <template>
+<!-- <div class="heroContainer">
+  <div class="heroChild">
+    <b-row>
+    <b-col class="heroText" xl="6" lg="6" sm="6" md="6"><p> Weather you are : <vue-typer class="mytyper"
+  :text='["Tourist","A Nature lover","Employee","Businessman","Pilgrim"]'
+  :repeat='Infinity'
+  :shuffle='false'
+  initial-action='typing'
+  :pre-type-delay='70'
+  :type-delay='70'
+  :pre-erase-delay='2000'
+  :erase-delay='250'
+  erase-style='select-all'
+  :erase-on-complete='false'
+  caret-animation='blink'
+></vue-typer></p>
+      
+      <h3> ~ let's escape this town for a little while ~ </h3>
+      <b-link to="/services" class="button" style="vertical-align:middle"><span>Chalo, Let's Go!</span></b-link></b-col>
+    <b-col class="heroImg" xl="6" lg="6" sm="6" md="6"><b-img src="~/assets/heron.jpg" fluid-grow alt="Responsive image"></b-img></b-col>
+  </b-row>
+  </div>
+
+</div> -->
   <div class="heroImg">
     <div class="heroPic">
-    <!-- <vue-typer type='Array' text='Hello World! I was registered locally!'></vue-typer> -->
     <p> Weather you are : <vue-typer class="mytyper"
   :text='["Tourist","A Nature lover","Employee","Businessman","Pilgrim"]'
   :repeat='Infinity'
@@ -17,7 +40,6 @@
 ></vue-typer></p>
       
       <h3> ~ let's escape this town for a little while ~ </h3>
-      <!-- <button>Let's Get IT!</button> -->
       <b-link to="/services" class="button" style="vertical-align:middle"><span>Chalo, Let's Go!</span></b-link>
       </div>
   </div>
@@ -27,6 +49,21 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+/* .heroContainer {
+  width: 100%;
+  height: 63vh;
+}
+.heroChild {
+  height: 100%;
+  display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.heroText {
+  height: 100%;
+} */
 .button {
   display: inline-block;
   border-radius: 13px;
@@ -82,8 +119,13 @@ h3 {
     font-family: 'Lobster', cursive;
 }
 .heroImg {
+  background-image: url("~assets/heroImg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: cover;
     width: 100%;
     height: 63vh;
+    /* clip-path: polygon(1% 81%, 28% 63%, 48% 34%, 55% 1%, 100% 1%, 100% 100%, 1% 100%); */
     /* background-color: #FFA384; */
     /* display: flex;
     flex-direction: column;
@@ -103,7 +145,8 @@ h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
-/* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);} */
+  /* clip-path: polygon(1% 81%, 28% 63%, 48% 34%, 55% 1%, 100% 1%, 100% 100%, 1% 100%); */
+
 }
 p {
   font-size: 30px;

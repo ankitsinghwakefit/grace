@@ -1,5 +1,16 @@
 <template>
-  <div class="container myclass">
+<div class="mt-4 mb-4 container">
+   <b-row class="mb-4">
+    <b-col><b-img src="~/assets/heronew.jpg" fluid-grow alt="Responsive image"></b-img></b-col>
+    <b-col><b-img src="~/assets/1new.jpg" fluid-grow alt="Responsive image"></b-img></b-col>
+    <b-col><b-img src="~/assets/2n.jpg" fluid-grow alt="Responsive image"></b-img></b-col>
+  </b-row>
+  <b-row>
+    <b-col><b-img src="~/assets/3n.jpg" fluid-grow alt="Responsive image"></b-img></b-col>
+    <b-col><b-img src="~/assets/4n.jpg" fluid-grow alt="Responsive image"></b-img></b-col>
+  </b-row>
+</div>
+  <!-- <div class="container myclass">
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -14,18 +25,16 @@
       @sliding-end="onSlideEnd"
     >
 
-      <!-- Slides with image only -->
       <b-carousel-slide img-src="~/assets/1.jpg"></b-carousel-slide>
       <b-carousel-slide img-src="~/assets/2.jpg"></b-carousel-slide>
       <b-carousel-slide img-src="~/assets/3.jpg"></b-carousel-slide>
       <b-carousel-slide img-src="~/assets/4.jpg"></b-carousel-slide>
       <b-carousel-slide img-src="~/assets/5.jpg"></b-carousel-slide>
 
-      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
       
     </b-carousel>
     <a target="_blank" href="https://www.solobackpacker.com/offbeat-kangra-valley/">Image Source</a>
-  </div>
+  </div> -->
 </template>
 
 <script>

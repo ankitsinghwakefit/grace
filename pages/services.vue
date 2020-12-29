@@ -85,7 +85,8 @@
       </div>
         </b-col>
       </b-row>
-    </div>
+       </div>
+   
 
 <!-- -------------------------- modal --------------------------------- -->
 
@@ -182,7 +183,7 @@
               <i class="fas fa-rupee-sign"></i>9,900 Onwards
             </b-card-text>
 
-            <b-button @click="getQuote"
+            <b-button class="newBtn" @click="getQuote"
               >Get Quotes</b-button
             >
             <!-- <b-button
@@ -213,7 +214,7 @@
             <b-card-text>
               <i class="fas fa-rupee-sign"></i>18,000 Onwards
             </b-card-text>
-             <b-button @click="getQuote"
+             <b-button class="newBtn" @click="getQuote"
               >Get Quotes</b-button
             >
 
@@ -243,9 +244,9 @@
             <i class="fas fa-mountain"></i>
 
             <b-card-text>
-              <i class="fas fa-rupee-sign"></i>30,000 Onwards
+              <i class="fas fa-rupee-sign"></i>29,000 Onwards
             </b-card-text>
-             <b-button @click="getQuote"
+             <b-button class="newBtn" @click="getQuote"
               >Get Quotes</b-button
             >
             <!-- <b-button
@@ -390,7 +391,11 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 .mynuxts {
     font-family: 'Andika New Basic', sans-serif !important;
-
+}
+.newBtn {
+  background-color: rgb(233, 120, 158);
+  border: palevioletred;
+  font-weight: bolder;
 }
 .myModal{
   z-index: 990;
@@ -431,6 +436,7 @@ export default {
   color: #ab9856;
 }
 .ourJumbo {
+  
    background-color: #373445 !important;
   color: #ab9856;
   border-radius: 4px;
