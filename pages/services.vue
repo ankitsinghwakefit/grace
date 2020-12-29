@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mynuxts">
     <particles-bg type="circle" :bg="true" />
     <Navbar />
     <div class="mycontainer">
@@ -387,6 +387,11 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.mynuxts {
+    font-family: 'Andika New Basic', sans-serif !important;
+
+}
 .myModal{
   z-index: 990;
   position: fixed;

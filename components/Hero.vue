@@ -18,7 +18,7 @@
       
       <h3> ~ let's escape this town for a little while ~ </h3>
       <!-- <button>Let's Get IT!</button> -->
-      <b-link to="/contact" class="button" style="vertical-align:middle"><span>Chalo, Let's Go!</span></b-link>
+      <b-link to="/services" class="button" style="vertical-align:middle"><span>Chalo, Let's Go!</span></b-link>
       </div>
   </div>
 </template>

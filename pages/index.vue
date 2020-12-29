@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="mynuxt">
   <Navbar />
   <Hero />
   <Intro />
@@ -63,7 +63,10 @@
   letter-spacing: 1px;
 } */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.mynuxt {
+  font-family: 'Andika New Basic', sans-serif !important;
+}
 .vue-typer .custom.char {
   font-size: 30px;
   color: #373445 ;
