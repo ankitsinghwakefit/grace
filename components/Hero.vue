@@ -1,28 +1,4 @@
 <template>
-<!-- <div class="heroContainer">
-  <div class="heroChild">
-    <b-row>
-    <b-col class="heroText" xl="6" lg="6" sm="6" md="6"><p> Weather you are : <vue-typer class="mytyper"
-  :text='["Tourist","A Nature lover","Employee","Businessman","Pilgrim"]'
-  :repeat='Infinity'
-  :shuffle='false'
-  initial-action='typing'
-  :pre-type-delay='70'
-  :type-delay='70'
-  :pre-erase-delay='2000'
-  :erase-delay='250'
-  erase-style='select-all'
-  :erase-on-complete='false'
-  caret-animation='blink'
-></vue-typer></p>
-      
-      <h3> ~ let's escape this town for a little while ~ </h3>
-      <b-link to="/services" class="button" style="vertical-align:middle"><span>Chalo, Let's Go!</span></b-link></b-col>
-    <b-col class="heroImg" xl="6" lg="6" sm="6" md="6"><b-img src="~/assets/heron.jpg" fluid-grow alt="Responsive image"></b-img></b-col>
-  </b-row>
-  </div>
-
-</div> -->
   <div class="heroImg">
     <div class="heroPic">
     <p> Weather you are : <vue-typer class="mytyper"
@@ -39,7 +15,7 @@
   caret-animation='blink'
 ></vue-typer></p>
       
-      <h3> ~ let's escape this town for a little while ~ </h3>
+      <h1 class="myheading"> ~ Best Workation Himachal Pradesh ~ </h1>
       <b-link to="/services" class="button" style="vertical-align:middle"><span>Chalo, Let's Go!</span></b-link>
       </div>
   </div>
@@ -49,21 +25,6 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-/* .heroContainer {
-  width: 100%;
-  height: 63vh;
-}
-.heroChild {
-  height: 100%;
-  display: flex;
-    flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.heroText {
-  height: 100%;
-} */
 .button {
   display: inline-block;
   border-radius: 13px;
@@ -108,15 +69,16 @@
 button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-h1 {
+/* h1 {
     font-size: 100px;
     font-weight: bolder;
     color: #373445;
-}
-h3 {
+} */
+.myheading {
     font-size: 50px;
     color: #373445;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive !important;
+    font-weight: bold;
 }
 .heroImg {
   background-image: url("~assets/heroImg.jpg");
@@ -124,7 +86,7 @@ h3 {
   background-position: center;
     background-size: cover;
     width: 100%;
-    height: 63vh;
+    height: 70vh;
     /* clip-path: polygon(1% 81%, 28% 63%, 48% 34%, 55% 1%, 100% 1%, 100% 100%, 1% 100%); */
     /* background-color: #FFA384; */
     /* display: flex;
@@ -152,20 +114,13 @@ p {
   font-size: 30px;
   color: #373445;
 }
-
-.vue-typer .custom.char {
-  color: #D4D4BD;
-  background-color: #1E1E1E;
-}
-.vue-typer .custom.char.selected {
-  background-color: #264F78;
-}
-
-.vue-typer .custom.caret {
-  width: 10px;
-  background-color: #3F51B5;
-}
 @media only screen and (max-width: 900px) {
+  .myheading {
+    font-size: 40px;
+    color: #373445;
+    font-family: 'Lobster', cursive !important;
+    font-weight: bold;
+}
   .button {
   display: inline-block;
   border-radius: 13px;
@@ -182,16 +137,7 @@ p {
   cursor: pointer;
   margin: 5px;
 }
-h1 {
-    font-size: 80px;
-    font-weight: bolder;
-    color: #373445;
-}
-h3 {
-    font-size: 40px;
-   color: #373445;
-    font-family: 'Lobster', cursive;
-}
+
 .heroImg {
     width: 100%;
     height: 58vh;
@@ -208,6 +154,12 @@ p {
 }
 }
 @media only screen and (max-width: 786px) {
+  .myheading {
+    font-size: 30px;
+    color: #373445;
+    font-family: 'Lobster', cursive !important;
+    font-weight: bold;
+}
   p {
   font-size: 20px;
   color: #373445;

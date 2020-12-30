@@ -1,28 +1,7 @@
 <template>
     <div>
         <Navbar />
-        <!-- <div class="jumbo-Container">
-      <b-jumbotron>
-        <template #header>Contact</template>
-        <template #lead>
-          Our team is working really hard to give you lifetime memories.
-          <br>
-          We are just a miscall away, Give it on <span class="contactus">98997 12768</span>.
-          <br>
-          Also, write to us at <span class="contactus">muktilisten@gmail.com</span>
-          
-        </template>
-        <ContactForm />
-        <hr class="my-4" />
-
-        <p>
-          We entertain your requests within 2 Minutes, Let's try!
-        </p>
-        <b-link class="button" to="/about" style="vertical-align:middle"><span>About us</span></b-link>
-        <b-link class="button" to="/services" style="vertical-align:middle"><span>Services</span></b-link>
         
-      </b-jumbotron>
-    </div> -->
     <particles-bg type="circle" :bg="true" />
     <div class="myContainer">
       <div class="myChildContainer">
@@ -49,6 +28,22 @@
     <Footer />
     </div>
 </template>
+<script>
+export default {
+  head() {
+return {
+    title: 'Contact Homestays Himachal Pradesh',
+    meta: [
+      {
+        hid: 'contact',
+        name: 'contact',
+        content: 'Contact Homestays Himachal Pradesh'
+      }
+    ],
+  }
+  }
+}
+</script>
 
 <style scoped>
 i {

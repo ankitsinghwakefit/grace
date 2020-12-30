@@ -25,15 +25,6 @@
         </div>
     </div>
 </div>
-  <!-- <div>
-    <b-container class="myclass">
-      <b-row>
-        <b-col xl="4" lg="4" md="4" sm="12">1 of 3</b-col>
-        <b-col xl="4" lg="4" md="4" sm="12">1 of 3</b-col>
-        <b-col xl="4" lg="4" md="4" sm="12">1 of 3</b-col>
-      </b-row>
-    </b-container>
-  </div> -->
 </template>
 
 <style scoped>

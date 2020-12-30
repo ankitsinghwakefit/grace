@@ -25,13 +25,27 @@
         </p>
         <b-link class="button" to="/contact" style="vertical-align:middle"><span>Book Mukti!</span></b-link>
         <b-link class="button" to="/services" style="vertical-align:middle"><span>Services</span></b-link>
-        <!-- <b-button variant="primary" href="#">Do Something</b-button>
-        <b-button variant="success" href="#">Do Something Else</b-button> -->
       </b-jumbotron>
     </div>
     <Footer />
   </div>
 </template>
+<script>
+export default {
+  head() {
+return {
+    title: 'About Workation package Himachal Pradesh',
+    meta: [
+      {
+        hid: 'about',
+        name: 'about',
+        content: 'About Workation package Himachal Pradesh'
+      }
+    ],
+  }
+  }
+}
+</script>
 
 <style scoped>
 .jumbotron {

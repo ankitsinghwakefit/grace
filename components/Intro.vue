@@ -44,7 +44,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .introcontainer {
-    margin-bottom: 50px;
     background-color: #bfd9d6 !important;
       font-family: 'Andika New Basic', sans-serif;
 
@@ -68,7 +67,7 @@ li {
     margin-top: 1px;
 }
 .introcontainer {
-    margin-bottom: 1px;
+    margin-bottom: 0px;
 }
 .logoresize {
     width: 310px;
