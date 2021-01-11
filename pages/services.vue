@@ -1,8 +1,10 @@
 <template>
   <div class="mynuxts">
-    <particles-bg type="circle" :bg="true" />
     <Navbar />
-    <div class="mycontainer">
+    <Vid />
+    <FeatureIn />
+    <OurServicesIn />
+    <!-- <div class="mycontainer">
       <h1 class="myheaderSeo">Our workation package Himachal Pradesh Includes</h1>
       <b-row>
         <b-col sm="12" lg="6" xl="6" md="12">
@@ -76,7 +78,7 @@
       </div>
         </b-col>
       </b-row>
-       </div>
+       </div> -->
    
 
 <!-- -------------------------- modal --------------------------------- -->
@@ -131,7 +133,7 @@
 
     <!-- --------------------------- all pacakages -------------- -->
 
-    
+    <h1 class="title-with-line text-center mb-5 myHead">Workation Packages</h1>
     <b-container>
       <b-row>
         <b-col sm="12" lg="4" xl="4" md="12">
@@ -317,6 +319,13 @@ return {
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 .mynuxts {
     font-family: 'Andika New Basic', sans-serif !important;
+}
+.myHead {
+   color: #373445;
+  width: 100%;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: bolder;
 }
 .myheaderSeo {
   text-align: center;
@@ -536,6 +545,9 @@ button:hover {
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 768px) {
+  .myHead {
+  font-size: 25px;
+}
   .myheaderSeo {
   text-align: center;
   color: #434246;
@@ -602,6 +614,9 @@ i {
 }
 }
 @media only screen and (max-width: 900px) {
+  .myHead {
+  font-size: 35px;
+}
   .mycontainer {
   width: 100%;
   margin: 0 0;

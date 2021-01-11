@@ -9,7 +9,7 @@
         loop="loop"
       >
         <source
-          src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
+          src="https://mdbootstrap.com/img/video/Sail-Away.mp4"
           type="video/mp4"
         />
       </video>
@@ -17,15 +17,15 @@
         <div class="d-flex h-100 text-center align-items-center">
           <div class="w-100 text-white">
             <p>
-              Weather you are :
+              Our Services :
               <vue-typer
                 class="mytyper"
                 :text="[
-                  'Tourist',
-                  'A Nature lover',
-                  'Employee',
-                  'Businessman',
-                  'Pilgrim'
+                  'Accommodation',
+                  'Meals',
+                  'Trekking',
+                  'Paragliding',
+                  'Camping'
                 ]"
                 :repeat="Infinity"
                 :shuffle="false"
@@ -40,9 +40,9 @@
               ></vue-typer>
             </p>
 
-            <h1 class="myheading">~ Best Workation in Himachal Pradesh ~</h1>
-            <b-link to="/services" class="button" style="vertical-align:middle"
-              ><span>Chalo, Let's Go!</span></b-link
+            <h1 class="myheading">~ Work from Mountains ~</h1>
+            <b-link to="/contact" class="button" style="vertical-align:middle"
+              ><span>Book Mukti!</span></b-link
             >
           </div>
         </div>
@@ -152,8 +152,9 @@ button:hover {
     color: #373445;
 } */
 .myheading {
-  font-size: 50px;
+  font-size: 60px;
   color: white;
+  margin-top: 20px;
   font-family: "Lobster", cursive !important;
   font-weight: bold;
 }

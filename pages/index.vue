@@ -45,10 +45,8 @@ export default {
   font-size: 30px;
   color: palevioletred ;
   font-weight: bolder;
-  background-color: whitesmoke;
 }
 .vue-typer .custom.char.selected {
-  background-color: whitesmoke;
 }
 
 .vue-typer .custom.caret {
