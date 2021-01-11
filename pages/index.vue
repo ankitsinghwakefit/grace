@@ -43,12 +43,12 @@ export default {
 }
 .vue-typer .custom.char {
   font-size: 30px;
-  color: #373445 ;
+  color: palevioletred ;
   font-weight: bolder;
-  background-color: #AB9856;
+  background-color: whitesmoke;
 }
 .vue-typer .custom.char.selected {
-  background-color: #AB9856;
+  background-color: whitesmoke;
 }
 
 .vue-typer .custom.caret {
@@ -58,33 +58,23 @@ export default {
 @media only screen and (max-width: 900px) {
   .vue-typer .custom.char {
   font-size: 25px;
-  color: #373445 ;
   font-weight: bolder;
-  background-color: #AB9856;
-}
-.vue-typer .custom.char.selected {
-  background-color: #AB9856;
 }
 
 .vue-typer .custom.caret {
   width: 10px;
-  background-color: palevioletred;
 }
 }
 @media only screen and (max-width: 768px) {
   .vue-typer .custom.char {
   font-size: 20px;
-  color: #373445 ;
   font-weight: bolder;
-  background-color: #AB9856;
 }
-.vue-typer .custom.char.selected {
-  background-color: #AB9856;
-}
+
 
 .vue-typer .custom.caret {
   width: 10px;
-  background-color: palevioletred;
 }
 }
 </style>
+

@@ -31,7 +31,6 @@
 .logoresize {
     height: 130px!important;
 }
-
 .navbar-dark .navbar-nav .nav-link{
       color:#373445!important;
       font-weight: bolder;
