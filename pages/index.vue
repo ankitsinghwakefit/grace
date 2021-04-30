@@ -1,11 +1,5 @@
 // 
-<div class="mynuxt">
-  <Navbar />
-  <Hero />
-  <Feature />
-  <Carousal />
-  <Intro />
-  <Footer />
+
 <!-- </div>
   
 </template> -->
