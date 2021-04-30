@@ -6,12 +6,12 @@
   <Carousal />
   <Intro />
   <Footer />
-</div>
+<!-- </div>
   
-</template>
+</template> -->
 
-<script>
-export default {
+<!-- <script>
+export default { -->
   head: {
     title: 'Best Workation Himachal Pradesh',
     meta: [
