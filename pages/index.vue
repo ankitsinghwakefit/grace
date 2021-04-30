@@ -1,4 +1,4 @@
-<template>
+// 
 <div class="mynuxt">
   <Navbar />
   <Hero />
@@ -10,20 +10,20 @@
   
 </template> -->
 
-<!-- <script>
-export default { -->
-  head: {
-    title: 'Best Workation Himachal Pradesh',
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Homestays in himachal pradesh'
-      },
-    ],
-  }
-}
-</script>
+// <script>
+// export default {
+//   head: {
+//     title: 'Best Workation Himachal Pradesh',
+//     meta: [
+//       {
+//         hid: 'description',
+//         name: 'description',
+//         content: 'Homestays in himachal pradesh'
+//       },
+//     ],
+//   }
+// }
+// </script>
 
 <style>
 
